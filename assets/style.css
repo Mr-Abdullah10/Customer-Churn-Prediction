@@ -1,0 +1,37 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Custom Card Styling for Metrics */
+div[data-testid="stMetric"] {
+    background-color: #1E1E1E;
+    border: 1px solid #333;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+/* Sidebar Styling */
+section[data-testid="stSidebar"] {
+    background-color: #121212;
+    border-right: 1px solid #333;
+}
+
+/* Custom Button */
+div.stButton > button {
+    background-color: #FF4B4B;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+div.stButton > button:hover {
+    background-color: #CC0000;
+    border: 1px solid white;
+}
